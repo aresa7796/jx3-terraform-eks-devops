@@ -27,7 +27,7 @@ variable "vault_user" {
 variable "cluster_name" {
   description = "Name of the Kubernetes cluster to create"
   type        = string
-  default     = ""
+  default     = "devops"
 }
 
 variable "force_destroy" {
